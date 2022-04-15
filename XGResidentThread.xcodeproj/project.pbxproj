@@ -14,6 +14,7 @@
 		F8C2239F2809250E0071A0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C2239E2809250E0071A0C8 /* Assets.xcassets */; };
 		F8C223A22809250E0071A0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C223A02809250E0071A0C8 /* LaunchScreen.storyboard */; };
 		F8C223A52809250E0071A0C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C223A42809250E0071A0C8 /* main.m */; };
+		F8C223AE280925660071A0C8 /* XGResidentThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C223AD280925660071A0C8 /* XGResidentThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F8C223A12809250E0071A0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8C223A32809250E0071A0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C223A42809250E0071A0C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C223AC280925660071A0C8 /* XGResidentThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGResidentThread.h; sourceTree = "<group>"; };
+		F8C223AD280925660071A0C8 /* XGResidentThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGResidentThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		F8C223912809250E0071A0C8 /* XGResidentThread */ = {
 			isa = PBXGroup;
 			children = (
+				F8C223AB280925580071A0C8 /* XGResidentThread */,
 				F8C223922809250E0071A0C8 /* AppDelegate.h */,
 				F8C223932809250E0071A0C8 /* AppDelegate.m */,
 				F8C223952809250E0071A0C8 /* SceneDelegate.h */,
@@ -72,6 +76,15 @@
 				F8C223A02809250E0071A0C8 /* LaunchScreen.storyboard */,
 				F8C223A32809250E0071A0C8 /* Info.plist */,
 				F8C223A42809250E0071A0C8 /* main.m */,
+			);
+			path = XGResidentThread;
+			sourceTree = "<group>";
+		};
+		F8C223AB280925580071A0C8 /* XGResidentThread */ = {
+			isa = PBXGroup;
+			children = (
+				F8C223AC280925660071A0C8 /* XGResidentThread.h */,
+				F8C223AD280925660071A0C8 /* XGResidentThread.m */,
 			);
 			path = XGResidentThread;
 			sourceTree = "<group>";
@@ -149,6 +162,7 @@
 				F8C2239A2809250E0071A0C8 /* ViewController.m in Sources */,
 				F8C223942809250E0071A0C8 /* AppDelegate.m in Sources */,
 				F8C223A52809250E0071A0C8 /* main.m in Sources */,
+				F8C223AE280925660071A0C8 /* XGResidentThread.m in Sources */,
 				F8C223972809250E0071A0C8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +316,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
