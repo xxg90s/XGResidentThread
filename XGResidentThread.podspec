@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "自定义全局常驻线程及实现常驻线程并管理其生命周期"
   s.homepage     = "https://github.com/xxg90s/XGResidentThread"
   s.source       = { :git => "https://github.com/xxg90s/XGResidentThread.git", :tag => "#{s.version}" }
-  s.source_files = "XGResidentThread/XGResidentThread/XGResidentThread/*.{h,m}"
+  s.source_files = "XGResidentThread/XGResidentThread/*.{h,m}"
   s.requires_arc = true
   s.platform     = :ios, "10.0"
   s.frameworks   = "UIKit", "Foundation"
